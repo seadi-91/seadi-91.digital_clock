@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 12px arial,helvetica,sans-serif;
+    background-color:blanchedalmond;
+
+}
+.heading {
+    position: fixed;
+   
+    top: 0;
+    z-index: 1000;
+    padding: 3rem 8%;
+}
+.heading h2{
+    font-size: 50px;
+    
+}
+.heading h3{
+    font-size: 25px;
+    color: blue;
+    padding-top: 50;
+    padding: 0.5rem;
+
+}
+.clock{
+    border: 1px solid #606060;
+    color:blue;
+    padding:50px;
+    border-radius:50%;
+    background-color:#222222;
+
+}
+#date{
+    font-size: 30px !important;
+    text-align: center;
+
+}
+#ampm{
+    font-size: 30px;
+    align-self: flex-end;
+    padding-bottom: 25px;
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+
+}
+
+
